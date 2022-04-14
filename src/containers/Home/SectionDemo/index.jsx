@@ -1,18 +1,9 @@
 import Demo from "./Demo";
 
-const SectionDemo = ({data}) => {
-
+const SectionDemo = ({ data }) => {
   return (
-    <div class="row">
-      {data && data.map((item , key) => (
-          <Demo
-            key={key}
-            img={item.img}
-            path={item.path}
-          />
-        ))}
-    </div>
+    <div class="row">{data && <Demo img={data.img} path={data.path} />}</div>
   );
-}
+};
 
 export default SectionDemo;
