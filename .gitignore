@@ -1,0 +1,5 @@
+# production
+/build
+
+# local .env file
+.env
