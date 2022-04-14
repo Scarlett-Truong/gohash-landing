@@ -11,8 +11,8 @@ import "./demo.css";
 // import Footer from '../../layouts/Footer'
 import Footer from "../../layouts/Footer";
 // import {Fluid1 , Fluid2} from './Fluid';
-import SectionHeading from "./SectionHeading";
-import SectionDemo from "./SectionDemo";
+// import SectionHeading from "./SectionHeading";
+// import SectionDemo from "./SectionDemo";
 
 const HomeContainer = () => {
   useEffect(() => {
@@ -33,10 +33,10 @@ const HomeContainer = () => {
     <>
       <section className="demo section-padding-100-0" id="demo">
         <div className="container">
-          <SectionHeading />
-          <SectionDemo data={data} />
-
-          <Demo img={data.img} path={data.path} />
+          {/* 
+           <SectionHeading />
+		       <SectionDemo data={data} />
+          */}
         </div>
       </section>
       <Footer />

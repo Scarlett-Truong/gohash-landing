@@ -66,27 +66,27 @@ let HomeDemo3 = () => {
       <Header />
       <div className="HomeDemo3">
         <SecWelcomeArea />
-        <SecVerticalSocial data={VerticalSocial} />
-        {/*
-        <SecHowItWorks data={HowItWorksInfo} imgPhone={HomeDemo3ImgPhone} />
-        */}
-        <SecTrust data={SingleCoolFact} />
         <SecAboutUsClient img={HomeDemo3About1} />
         <SecAboutUs img={HomeDemo3Solution} />
-        <SecDemoVideo img={HomeDemo3VideoBg4} />
-        <div className="clearfix" />
-        <SecOurServices data={service_single_content} />
+        <SecAboutUsClient img={HomeDemo3About1} />
         <SecOurRoadmap data={timelineInfo} img={HomeDemo3BgRoadmap} />
         <SecOurFeatures
           data={ServiceBlock}
           imgPhone={HomeDemo3ImgPhone}
           Rings={HomeDemo3RingsBg}
         />
-        <SecSubscribe data={SocialListIco} />
         <SecFAQ_Timeline FQAInfo={FQAInfo} DocElementTitle={DocElementTitle} />
-        <SecDistribution img={HomeDemo3Allocation} data={TokenText} />
-        <SecTeam data={TeamMember} />
-        <SecPartners data={PartnersData} />
+        {/* you could comment out and see those unused components 
+            <SecVerticalSocial data={VerticalSocial} />
+            <SecHowItWorks data={HowItWorksInfo} imgPhone={HomeDemo3ImgPhone} />
+            <SecTrust data={SingleCoolFact} />
+            <SecOurServices data={service_single_content} />
+            <SecDemoVideo img={HomeDemo3VideoBg4} />
+            <SecSubscribe data={SocialListIco} />
+            <SecDistribution img={HomeDemo3Allocation} data={TokenText} />
+            <SecTeam data={TeamMember} /> 
+            <SecPartners data={PartnersData} />
+          */}
       </div>
       <Footer />
     </>
