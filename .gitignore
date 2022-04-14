@@ -1,5 +1,9 @@
 # production
 /build
 
+#dependencies 
+/node_modules
+
 # local .env file
 .env
+
