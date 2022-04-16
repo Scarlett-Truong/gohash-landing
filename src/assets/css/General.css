@@ -6,6 +6,8 @@
 ***/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;800;900&display=swap');
+
 
 /*** 
 
@@ -15,12 +17,9 @@
 
 ***/
 
-/*@import 'bootstrap.min.css';*/
 @import 'animate.css';
 @import 'about-sonar.css';
 @import 'classy-nav.min.css';
-/*@import 'dzsparallaxer.css';*/
-/*@import 'owl.carousel.min.css';*/
 @import 'magnific-popup.css';
 @import 'animated-headline.css';
 @import 'font-awesome.min.css';
@@ -42,7 +41,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Inter', sans-serif !important;
     background-image: -webkit-linear-gradient(left, #1d0498, #341f97) !important;
     background-image: linear-gradient(to right, #1d0498, #341f97) !important
 }
@@ -55,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #fff;
     line-height: 1.4;
     font-weight: 500;
@@ -779,6 +778,8 @@ body.light-version {
     border-radius: 8px;
     font-size: 12px;
     font-style: italic;
+    font-family:'Inter', sans-serif !important;
+    font-weight: 900;
 }
 
 

@@ -2,49 +2,55 @@ import { useEffect } from "react";
 import "./style/HomeDemo3.scss";
 
 import {
-  VerticalSocial,
+  timelineInfo,
+  ServiceBlock,
+  FQAInfo,
+  DocElementTitle,
+  /*
+  SocialListIco, VerticalSocial,
   HowItWorksInfo,
   SingleCoolFact,
   service_single_content,
-  timelineInfo,
-  ServiceBlock,
-  SocialListIco,
-  FQAInfo,
-  DocElementTitle,
   TokenText,
   TeamMember,
   PartnersData,
+  */
 } from "../../data/data-containers/data-HomeDemo3.js";
 
 import {
   HomeDemo3About1,
   HomeDemo3Solution,
-  HomeDemo3VideoBg4,
   HomeDemo3ImgPhone,
   HomeDemo3RingsBg,
+  /* 
+  HomeDemo3VideoBg4,
   HomeDemo3Allocation,
+  */
   HomeDemo3BgRoadmap,
 } from "../../utils/allImgs";
 
 import { handelTitle } from "../../utils";
 import Header from "../../layouts/Header";
 import Footer from "../../layouts/FooterPages";
-
 import SecWelcomeArea from "./SecWelcomeArea";
+import SecAboutUsClient from "./SecAboutUsClient";
+import SecAboutUs from "./SecAboutUs";
+import SecOurRoadmap from "./SecOurRoadmap";
+import SecOurFeatures from "./SecOurFeatures";
+import SecFAQ_Timeline from "./SecFAQ_Timeline";
+
+/*
+* Uncomment unused components as needed 
+import SecDemoVideo from "./SecDemoVideo";
+import SecOurServices from "./SecOurServices";
 import SecVerticalSocial from "./SecVerticalSocial";
 import SecHowItWorks from "./SecHowItWorks";
 import SecTrust from "./SecTrust";
-import SecAboutUsClient from "./SecAboutUsClient";
-import SecAboutUs from "./SecAboutUs";
-import SecDemoVideo from "./SecDemoVideo";
-import SecOurServices from "./SecOurServices";
-import SecOurRoadmap from "./SecOurRoadmap";
-import SecOurFeatures from "./SecOurFeatures";
 import SecSubscribe from "./SecSubscribe";
-import SecFAQ_Timeline from "./SecFAQ_Timeline";
 import SecDistribution from "./SecDistribution";
 import SecTeam from "./SecTeam";
 import SecPartners from "./SecPartners";
+*/
 
 let HomeDemo3 = () => {
   useEffect(() => {
