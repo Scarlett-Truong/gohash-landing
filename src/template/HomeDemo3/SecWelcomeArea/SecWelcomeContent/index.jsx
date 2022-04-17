@@ -1,11 +1,13 @@
 function SecWelcomeContent({ img }) {
   return (
-    <div className="welcome-content">
-      <h1>Buy & sell crypto easier than ever</h1>
+    <div className="welcome-content" style={{ fontSize: 69 }}>
+      <h1>
+        End-to-End <br /> Open Sources <br /> Mining Pool Solution
+      </h1>
       <p>
-        We have over 15 year exprience in business consultting arena. We have
-        over 15 year exprience in business consultting arena and artficial
-        intelligence.
+        Simplify the process of creating, hosting, and managing a mining pool.
+        Anyone should be able to setup and host a mining pool with minimal
+        difficulties.
       </p>
       <div className="dream-btn-group">
         <a href="#" className="btn dream-btn mr-3">
@@ -20,4 +22,3 @@ function SecWelcomeContent({ img }) {
 }
 
 export default SecWelcomeContent;
-

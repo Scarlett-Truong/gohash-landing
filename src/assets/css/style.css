@@ -36,7 +36,10 @@
 
 ***/
 
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Inter:200,300,400,500,600,700,800,900');
+
 
 /*** 
 
@@ -70,7 +73,8 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
     background: #4834d4;
     background: -webkit-linear-gradient(left, #1d0498, #341f97);
     background: linear-gradient(to right, #1d0498, #341f97)
@@ -84,10 +88,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #fff;
     line-height: 1.4;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 a,

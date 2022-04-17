@@ -1,3 +1,4 @@
+// hero section pic
 import { HomeDemo1Dollar } from "../../../utils/allImgs";
 
 import SecWelcomeContent from "./SecWelcomeContent";
@@ -40,4 +41,3 @@ const SecWelcomeArea = () => {
 };
 
 export default SecWelcomeArea;
-
